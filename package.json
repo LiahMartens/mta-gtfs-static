@@ -1,6 +1,6 @@
 {
   "name": "mta-gtfs-static",
-  "version": "0.0.202606230259",
+  "version": "0.0.202606240300",
   "description": "This package contains JSON exports of the static GTFS data. It is updated once per day.",
   "type": "module",
   "files": [
@@ -336,7 +336,19 @@
     "./gtfs_json/subway/feed_info": "./gtfs_json/subway/feed_info.json",
     "./gtfs_js/subway/feed_info": "./gtfs_js/subway/feed_info.js",
     "./gtfs_json/subway_supplemented/feed_info": "./gtfs_json/subway_supplemented/feed_info.json",
-    "./gtfs_js/subway_supplemented/feed_info": "./gtfs_js/subway_supplemented/feed_info.js"
+    "./gtfs_js/subway_supplemented/feed_info": "./gtfs_js/subway_supplemented/feed_info.js",
+    "./gtfs_json/bus_m/feed_info": "./gtfs_json/bus_m/feed_info.json",
+    "./gtfs_js/bus_m/feed_info": "./gtfs_js/bus_m/feed_info.js",
+    "./gtfs_json/bus_qns/feed_info": "./gtfs_json/bus_qns/feed_info.json",
+    "./gtfs_js/bus_qns/feed_info": "./gtfs_js/bus_qns/feed_info.js",
+    "./gtfs_json/bus_si/feed_info": "./gtfs_json/bus_si/feed_info.json",
+    "./gtfs_js/bus_si/feed_info": "./gtfs_js/bus_si/feed_info.js",
+    "./gtfs_json/bus_bk/feed_info": "./gtfs_json/bus_bk/feed_info.json",
+    "./gtfs_js/bus_bk/feed_info": "./gtfs_js/bus_bk/feed_info.js",
+    "./gtfs_json/bus_busco/feed_info": "./gtfs_json/bus_busco/feed_info.json",
+    "./gtfs_js/bus_busco/feed_info": "./gtfs_js/bus_busco/feed_info.js",
+    "./gtfs_json/bus_bx/feed_info": "./gtfs_json/bus_bx/feed_info.json",
+    "./gtfs_js/bus_bx/feed_info": "./gtfs_js/bus_bx/feed_info.js"
   },
   "devDependencies": {
     "cross-zip": "^4.0.1",
